@@ -1,0 +1,37 @@
+TimeStamp : 	15-Apr-2018 17:14:45
+Error : 	Format of the initialization string does not conform to specification starting at index 126.
+Source : 	EntityFramework
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   at System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   at SamhashoService.Model.ESamhashoEntities.GetAllProducts() in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\Model\DataModel.Context.cs:line 61
+   at SamhashoService.ProductService.GetAllProducts() in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\ProductService.svc.cs:line 230
+===============================================================================================================================================TimeStamp : 	15-Apr-2018 17:15:16
+Error : 	Format of the initialization string does not conform to specification starting at index 126.
+Source : 	EntityFramework
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   at System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   at SamhashoService.Model.ESamhashoEntities.SearchProducts(String search, Nullable`1 catergoryId) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\Model\DataModel.Context.cs:line 74
+   at SamhashoService.ProductService.SearchProduct(SearchProductRequest searchProductRequest) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\ProductService.svc.cs:line 111
+===============================================================================================================================================

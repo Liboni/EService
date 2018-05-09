@@ -1,0 +1,58 @@
+TimeStamp : 	28-Mar-2018 19:06:56
+Error : 	IDX10603: The algorithm: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]' requires the SecurityKey.KeySize to be greater than '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]' bits. KeySize reported: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]'.
+Parameter name: KeySize
+Source : 	Microsoft.IdentityModel.Tokens
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at SamhashoService.Security.GenerateSecurityToken(String username, String password) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 32
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 19:34:51
+Error : 	IDX12709: JWT is not well formed: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+Source : 	System.IdentityModel.Tokens.Jwt
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadToken(String token)
+   at SamhashoService.Security.GetPrincipal(String token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 56
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 19:57:35
+Error : 	IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]', Current time: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]'.
+Source : 	Microsoft.IdentityModel.Tokens
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at SamhashoService.Security.GetPrincipal(String token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 101
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 19:58:00
+Error : 	IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]', Current time: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]'.
+Source : 	Microsoft.IdentityModel.Tokens
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at SamhashoService.Security.GetPrincipal(String token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 101
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 19:58:11
+Error : 	IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]', Current time: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]'.
+Source : 	Microsoft.IdentityModel.Tokens
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at SamhashoService.Security.GetPrincipal(String token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 101
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 19:58:24
+Error : 	IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]', Current time: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]'.
+Source : 	Microsoft.IdentityModel.Tokens
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at SamhashoService.Security.GetPrincipal(String token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 101
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 19:59:08
+Error : 	IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]', Current time: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]'.
+Source : 	Microsoft.IdentityModel.Tokens
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at SamhashoService.Security.GetPrincipal(String token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 101
+===============================================================================================================================================

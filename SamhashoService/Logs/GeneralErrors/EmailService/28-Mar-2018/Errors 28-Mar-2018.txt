@@ -1,0 +1,7 @@
+TimeStamp : 	28-Mar-2018 18:49:29
+Error : 	The SMTP host was not specified.
+Source : 	System
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.Net.Mail.SmtpClient.CheckHostAndPort()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at SamhashoService.IdentityModels.EmailService.SendAsync(IdentityMessage message) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\IdentityModels\EmailService.cs:line 30
+===============================================================================================================================================

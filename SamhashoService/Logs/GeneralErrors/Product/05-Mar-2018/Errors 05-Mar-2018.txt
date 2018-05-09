@@ -1,0 +1,8 @@
+TimeStamp : 	05-Mar-2018 08:41:52
+Error : 	Input string was not in a correct format.
+Source : 	mscorlib
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at SamhashoService.ProductService.CreateProduct(Stream data) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\ProductService.svc.cs:line 32
+===============================================================================================================================================

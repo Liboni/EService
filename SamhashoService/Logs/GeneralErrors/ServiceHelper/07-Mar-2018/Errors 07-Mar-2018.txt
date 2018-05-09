@@ -1,0 +1,5 @@
+TimeStamp : 	07-Mar-2018 08:06:54
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.ServiceHelper.SaveImage(Stream image, String name) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\ServiceHelper.cs:line 49
+===============================================================================================================================================

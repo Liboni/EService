@@ -1,0 +1,99 @@
+TimeStamp : 	28-Mar-2018 18:42:54
+Error : 	Role Administrator does not exist.
+Source : 	Microsoft.AspNet.Identity.EntityFramework
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at Microsoft.AspNet.Identity.EntityFramework.UserStore`6.<AddToRoleAsync>d__3b.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.Identity.UserManager`2.<AddToRoleAsync>d__83.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.Identity.AsyncHelper.RunSync[TResult](Func`1 func)
+   at Microsoft.AspNet.Identity.UserManagerExtensions.AddToRole[TUser,TKey](UserManager`2 manager, TKey userId, String role)
+   at SamhashoService.AuthenticationService.SignUp(SignUp signUp) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\AuthenticationService.svc.cs:line 240
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 18:46:33
+Error : 	The entity type ApplicationUser is not part of the model for the current context.
+Source : 	EntityFramework
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Microsoft.AspNet.Identity.EntityFramework.UserStore`6.<GetUserAggregateAsync>d__6c.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.Identity.TaskExtensions.CultureAwaiter`1.GetResult()
+   at Microsoft.AspNet.Identity.UserValidator`2.<ValidateUserName>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.Identity.UserValidator`2.<ValidateAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.Identity.UserManager`2.<CreateAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.Identity.UserManager`2.<CreateAsync>d__d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.Identity.AsyncHelper.RunSync[TResult](Func`1 func)
+   at Microsoft.AspNet.Identity.UserManagerExtensions.Create[TUser,TKey](UserManager`2 manager, TUser user, String password)
+   at SamhashoService.AuthenticationService.SignUp(SignUp signUp) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\AuthenticationService.svc.cs:line 229
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 18:56:44
+Error : 	IDX10603: The algorithm: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]' requires the SecurityKey.KeySize to be greater than '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]' bits. KeySize reported: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]'.
+Parameter name: KeySize
+Source : 	Microsoft.IdentityModel.Tokens
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at SamhashoService.Security.GenerateSecurityToken(String username, String password) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 28
+   at SamhashoService.AuthenticationService.SignIn(SignInUser signInUser) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\AuthenticationService.svc.cs:line 51
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 18:58:13
+Error : 	IDX10603: The algorithm: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]' requires the SecurityKey.KeySize to be greater than '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]' bits. KeySize reported: '[PII is hidden by default. Set the 'ShowPII' flag in IdentityModelEventSource.cs to true to reveal it.]'.
+Parameter name: KeySize
+Source : 	Microsoft.IdentityModel.Tokens
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at SamhashoService.Security.GenerateSecurityToken(String username, String password) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 28
+   at SamhashoService.AuthenticationService.SignIn(SignInUser signInUser) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\AuthenticationService.svc.cs:line 51
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 19:32:55
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.AuthenticationService.ValidateToken(String token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\AuthenticationService.svc.cs:line 544
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 19:34:51
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.AuthenticationService.ValidateToken(String token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\AuthenticationService.svc.cs:line 544
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 19:57:35
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.Security.ValidateToken(String token, String& username) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 57
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 19:58:00
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.Security.ValidateToken(String token, String& username) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 57
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 19:58:18
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.Security.ValidateToken(String token, String& username) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 57
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 19:58:25
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.Security.ValidateToken(String token, String& username) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 57
+===============================================================================================================================================TimeStamp : 	28-Mar-2018 19:59:08
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.Security.ValidateToken(String token, String& username) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 57
+===============================================================================================================================================

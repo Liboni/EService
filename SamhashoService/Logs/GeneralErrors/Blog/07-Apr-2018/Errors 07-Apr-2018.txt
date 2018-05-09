@@ -1,0 +1,68 @@
+TimeStamp : 	07-Apr-2018 19:03:56
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.BlogService.AddBlog(Stream blogData) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\BlogService.svc.cs:line 39
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 19:04:46
+Error : 	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : 	mscorlib
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SamhashoService.BlogService.AddBlog(Stream blogData) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\BlogService.svc.cs:line 22
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 19:05:23
+Error : 	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : 	mscorlib
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SamhashoService.BlogService.AddBlog(Stream blogData) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\BlogService.svc.cs:line 22
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 19:06:34
+Error : 	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : 	mscorlib
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SamhashoService.BlogService.AddBlog(Stream blogData) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\BlogService.svc.cs:line 22
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 19:06:47
+Error : 	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : 	mscorlib
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SamhashoService.BlogService.AddBlog(Stream blogData) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\BlogService.svc.cs:line 22
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 19:07:36
+Error : 	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : 	mscorlib
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SamhashoService.BlogService.AddBlog(Stream blogData) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\BlogService.svc.cs:line 22
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 19:10:12
+Error : 	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : 	mscorlib
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SamhashoService.BlogService.AddBlog(Stream blogData) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\BlogService.svc.cs:line 22
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 19:10:43
+Error : 	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : 	mscorlib
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SamhashoService.BlogService.AddBlog(Stream blogData) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\BlogService.svc.cs:line 22
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 19:11:27
+Error : 	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : 	mscorlib
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SamhashoService.BlogService.AddBlog(Stream blogData) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\BlogService.svc.cs:line 22
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 19:11:37
+Error : 	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : 	mscorlib
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SamhashoService.BlogService.AddBlog(Stream blogData) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\BlogService.svc.cs:line 22
+===============================================================================================================================================

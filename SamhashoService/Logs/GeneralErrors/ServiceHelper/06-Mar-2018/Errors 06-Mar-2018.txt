@@ -1,0 +1,14 @@
+TimeStamp : 	06-Mar-2018 19:39:42
+Error : 	Google.Apis.Requests.RequestError
+Project 80418490501 is not found and cannot be used for API calls. If it is recently created, enable Drive API by visiting https://console.developers.google.com/apis/api/drive.googleapis.com/overview?project=80418490501 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry. [403]
+Errors [
+	Message[Project 80418490501 is not found and cannot be used for API calls. If it is recently created, enable Drive API by visiting https://console.developers.google.com/apis/api/drive.googleapis.com/overview?project=80418490501 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.] Location[ - ] Reason[accessNotConfigured] Domain[usageLimits]
+]
+
+Source : 	Google.Apis
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at Google.Apis.Requests.ClientServiceRequest`1.<ParseResponse>d__34.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at SamhashoService.ServiceHelper.CreateFolder(String folderName) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\ServiceHelper.cs:line 72
+===============================================================================================================================================

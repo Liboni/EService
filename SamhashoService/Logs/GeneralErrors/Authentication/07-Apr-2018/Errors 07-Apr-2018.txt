@@ -1,0 +1,37 @@
+TimeStamp : 	07-Apr-2018 10:46:14
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.Security.ValidateToken(String token, List`1& claims) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 57
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 10:59:22
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.Security.ValidateToken(String token, List`1& claims) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 57
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 16:34:59
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.Security.ValidateToken(String token, List`1& claims) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 57
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 17:03:38
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.Security.ValidateToken(String token, List`1& claims) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 57
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 17:29:13
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.Security.ValidateToken(String token, List`1& claims) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 57
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 17:29:22
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.Security.ValidateToken(String token, List`1& claims) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 57
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 17:30:10
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.Security.ValidateToken(String token, List`1& claims) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 57
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 17:30:51
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.Security.ValidateToken(String token, List`1& claims) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 57
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 17:57:13
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.Security.ValidateToken(String token, List`1& claims) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\Security.cs:line 57
+===============================================================================================================================================

@@ -1,0 +1,13 @@
+TimeStamp : 	06-Mar-2018 18:28:33
+Error : 	Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+Source : 	EntityFramework
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at SamhashoService.ProductService.CreateProduct(Stream data) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\ProductService.svc.cs:line 49
+===============================================================================================================================================TimeStamp : 	06-Mar-2018 19:41:21
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.ServiceHelper.SaveImage(Stream image, String name) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\App_Code\ServiceHelper.cs:line 48
+   at SamhashoService.ProductService.CreateProduct(Stream data) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\ProductService.svc.cs:line 49
+===============================================================================================================================================

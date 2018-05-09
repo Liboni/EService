@@ -1,0 +1,47 @@
+TimeStamp : 	07-Apr-2018 10:46:18
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.UserService.GetUserDetails(String token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\UserService.svc.cs:line 24
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 16:35:37
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.UserService.GetUserDetails(Token token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\UserService.svc.cs:line 25
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 17:03:38
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.UserService.GetUserDetails(Token token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\UserService.svc.cs:line 28
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 17:27:39
+Error : 	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : 	mscorlib
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SamhashoService.UserService.UpdateUserDetails(Stream userData) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\UserService.svc.cs:line 80
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 17:29:13
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.UserService.GetUserDetails(Token token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\UserService.svc.cs:line 28
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 17:29:22
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.UserService.GetUserDetails(Token token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\UserService.svc.cs:line 28
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 17:30:10
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.UserService.GetUserDetails(Token token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\UserService.svc.cs:line 28
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 17:30:51
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.UserService.GetUserDetails(Token token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\UserService.svc.cs:line 28
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 17:44:21
+Error : 	Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : 	mscorlib
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SamhashoService.UserService.UpdateUserDetails(Stream userData) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\UserService.svc.cs:line 81
+===============================================================================================================================================TimeStamp : 	07-Apr-2018 17:57:13
+Error : 	Object reference not set to an instance of an object.
+Source : 	SamhashoService
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at SamhashoService.UserService.GetUserDetails(Token token) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\UserService.svc.cs:line 28
+===============================================================================================================================================

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3f84fb3e1d994aa181c056a0637f0c4c" Name="Diagram1" >
+        <EntityTypeShape EntityType="ESamhashoModel.ProductMedia" Width="1.5" PointX="3" PointY="1.5" />
+        <EntityTypeShape EntityType="ESamhashoModel.Catergory" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ESamhashoModel.EmailTemplate" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="ESamhashoModel.VerificationToken" Width="1.5" PointX="5.375" PointY="3.75" />
+        <EntityTypeShape EntityType="ESamhashoModel.OutgoingEmail" Width="1.5" PointX="5.375" PointY="6.75" />
+        <EntityTypeShape EntityType="ESamhashoModel.Notification" Width="1.5" PointX="3" PointY="5.25" />
+        <EntityTypeShape EntityType="ESamhashoModel.UserProfile" Width="1.5" PointX="7.375" PointY="4.75" />
+        <EntityTypeShape EntityType="ESamhashoModel.AspNetUser" Width="1.5" PointX="0.75" PointY="8.125" />
+        <AssociationConnector Association="ESamhashoModel.FK_UserProfile_AspNetUsers" />
+        <EntityTypeShape EntityType="ESamhashoModel.Blog" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="ESamhashoModel.BlogViewer" Width="1.5" PointX="9.625" PointY="0.875" />
+        <EntityTypeShape EntityType="ESamhashoModel.Product" Width="1.5" PointX="8" PointY="8.875" />
+        <EntityTypeShape EntityType="ESamhashoModel.ProductViewer" Width="1.5" PointX="10.25" PointY="10.125" />
+        <AssociationConnector Association="ESamhashoModel.FK_Products_AspNetUsers" />
+        <AssociationConnector Association="ESamhashoModel.FK_BlogViewers_Blog" />
+        <AssociationConnector Association="ESamhashoModel.FK_Products_Catergory" />
+        <AssociationConnector Association="ESamhashoModel.FK_Notifications_Products1" />
+        <AssociationConnector Association="ESamhashoModel.FK_ProductMedia_Products" />
+        <AssociationConnector Association="ESamhashoModel.FK_ProductViewers_Products" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

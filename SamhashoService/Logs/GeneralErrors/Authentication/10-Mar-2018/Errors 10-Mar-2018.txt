@@ -1,0 +1,29 @@
+TimeStamp : 	10-Mar-2018 14:21:49
+Error : 	Role Administrator does not exist.
+Source : 	Microsoft.AspNet.Identity.EntityFramework
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at Microsoft.AspNet.Identity.EntityFramework.UserStore`6.<AddToRoleAsync>d__3b.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.Identity.UserManager`2.<AddToRoleAsync>d__83.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.Identity.AsyncHelper.RunSync[TResult](Func`1 func)
+   at Microsoft.AspNet.Identity.UserManagerExtensions.AddToRole[TUser,TKey](UserManager`2 manager, TKey userId, String role)
+   at SamhashoService.AuthenticationService.SignUp(SignUp signUp) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\AuthenticationService.svc.cs:line 195
+===============================================================================================================================================TimeStamp : 	10-Mar-2018 14:24:58
+Error : 	Role Administrator does not exist.
+Source : 	Microsoft.AspNet.Identity.EntityFramework
+Data : 	System.Collections.Generic.Dictionary`2[System.String,System.String]Stacktrace :	   at Microsoft.AspNet.Identity.EntityFramework.UserStore`6.<AddToRoleAsync>d__3b.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.Identity.UserManager`2.<AddToRoleAsync>d__83.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNet.Identity.AsyncHelper.RunSync[TResult](Func`1 func)
+   at Microsoft.AspNet.Identity.UserManagerExtensions.AddToRole[TUser,TKey](UserManager`2 manager, TKey userId, String role)
+   at SamhashoService.AuthenticationService.SignUp(SignUp signUp) in C:\Users\Libonis\Documents\Visual Studio 2017\Projects\SamhashoService\SamhashoService\AuthenticationService.svc.cs:line 195
+===============================================================================================================================================
